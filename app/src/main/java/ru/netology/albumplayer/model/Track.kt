@@ -1,4 +1,6 @@
 package ru.netology.albumplayer.model
 
-class Track {
-}
+data class Track(
+    val id: Int,
+    val file: String
+)
